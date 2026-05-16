@@ -23,11 +23,17 @@ The program defines a class `Demo` with:
 ## Program
 
 class Demo:
+
     def __init__(self):
+    
         print("Alive")
+        
     def __del__(self):
+    
         print("The object no longer exists")
+        
 obj=Demo()
+
 del obj
 
 ## 🧪 Output
